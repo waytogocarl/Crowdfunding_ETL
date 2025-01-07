@@ -5,6 +5,7 @@ In this project I worked with a partner to complete an ETL pipeline using Python
 In the first part of this project we extracted crowdfunding data from a Excel sheet, after reviewing the data types we created two data frames, one for Categories and one for Subcategories. We were able to perform splits, drops, list comprehnsion, and date conversions. We then exported as a CSV.
 
 Here is a screenshot of the Category data we extracted from the original dataset and transformed into a new Dataframe:
+
 <img width="277" alt="Screenshot 2025-01-06 at 9 19 01 PM" src="https://github.com/user-attachments/assets/2dee789c-c49e-466d-8208-93d89f55c37a" />
 
 In the next part of this project, we created a Campaign Dataframe where we renamed several columns, created new columns, and converted some of the datatypes. Next, we merged the campaign dataframe with the two category and subcategory dataframes from the first part of the project. We then cleaned the dataframe by dropping duplicate columns. Finally, we exported as a CSV.
